@@ -1,0 +1,6 @@
+<div class= "quotes-page" *ngIf="quotesList">
+    <div class= "quotes-container" *ngFor="let quote of quotesList">
+        <p><i>"{{quote.quote}}"</i> </p>
+        <p>{{quote.author}}</p>
+    </div>
+</div>

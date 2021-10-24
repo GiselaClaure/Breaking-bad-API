@@ -1,0 +1,8 @@
+<nav>
+    <ul>
+        <li *ngFor="let element of navbar">
+            <img src="{{element.icon.src}}" alt="{{element.icon.alt}}" routerLink= "{{element.link}}">
+            <a href= "{{element.link}}">{{element.name}}</a>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,8 @@
+
+<div class="characters_page" *ngIf="charactersList">
+    
+    <div *ngFor="let character of charactersList" class="character-card" routerLink="{{character.char_id}}">
+        <h1 class="character_title" >{{character.name}} </h1>
+        <img class="character_img" src="{{character.img}}" alt="{{character.name}}">
+    </div>
+</div>

@@ -1,0 +1,43 @@
+nav{
+    background-image: url("https://ae01.alicdn.com/kf/HTB1RKt1KFXXXXcAXXXXq6xXFXXXi/Technological-design-for-Periodic-table-poster-green-color-background-wallstickers-50x80cm-20x31-5inch-free-shipping.jpg");
+    background-size: cover;
+    max-width: 100%;
+    
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        list-style-type: none;
+        text-transform: uppercase;
+        height: 80px;
+        align-items: center;
+        li{
+            display: flex;
+            justify-content: center;
+            
+            a{
+                text-decoration: none;
+                font-size: 1rem;
+                color: white;
+                
+            }
+            img{
+                display:none;
+            }  
+        }
+
+        li:hover {
+           a{
+            display:none
+           } 
+           img{
+               display: flex;
+               cursor: pointer;
+               width: 70px;
+           }
+        }
+
+
+    }
+}

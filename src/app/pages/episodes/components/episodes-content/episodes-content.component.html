@@ -1,0 +1,7 @@
+<div class="episodes-page" *ngIf="episodesList">
+    <div class="episodes_container" *ngFor="let episode of episodesList">
+        <p>season {{episode.season}}, episode  {{episode.episode_id}} </p>    
+        <h2>{{episode.title}}</h2>
+        <p>{{episode.air_date}}</p>
+    </div>
+</div>

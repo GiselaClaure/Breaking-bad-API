@@ -1,0 +1,15 @@
+<div class= "details-page"*ngIf="character">
+    <div class="details-container" *ngFor="let element of character" >
+        <h1>{{element.name}}</h1>
+        <img src="{{element.img}}" alt="">
+        <ul>
+            <li>Nickname: <strong>{{element.nickname}}</strong></li>
+            <li>Occupation: <strong>{{element.occupation[0]}}</strong> <p><strong>{{element.occupation[1]}}</strong></p></li>
+            <li>Status: <strong>{{element.status}}</strong></li>
+            <li>Portrayed by <strong>{{element.portrayed}}</strong></li>
+        </ul>
+    </div>
+</div>
+
+
+

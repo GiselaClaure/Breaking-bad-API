@@ -1,0 +1,45 @@
+.episodes-page{
+    background-color: #1d1906;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.episodes_container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    max-width: 95%;
+    width: 80rem;
+    height: 11rem;
+    max-height: auto;
+    object-fit: cover;
+    padding: 50px;
+    margin: 20px;
+    border: solid 3px #414833;
+    border-radius: 10px;
+    background-image:url("https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xMTcyOTA3Ny9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY1NTkwOTI0N30.CqJNOtsxm8pDn1R5-rJYP0ZxBv8-aY3apKPvOZkTgsE/img.jpg?width=980");
+    background-size:cover;
+    
+
+    p{
+        display: flex;
+        text-align: center;
+        font-size: 1.4rem;
+        color: #414833;
+        /* padding-bottom: 10px;
+        padding-top: 10px; */
+    }
+    h2{
+        margin-top: 10px;
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: #414833;
+
+        padding: 10px;
+    }
+     
+}
